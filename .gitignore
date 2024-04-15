@@ -1,0 +1,6 @@
+AutoRunBuild/obj/
+AutoRunBuild/bin/
+*/.suo
+*/.vs/*
+*.vsidx
+.vs/AutoRunBuild/v17/
