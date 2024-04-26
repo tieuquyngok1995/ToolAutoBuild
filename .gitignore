@@ -1,6 +1,7 @@
-AutoRunBuild/obj/
-AutoRunBuild/bin/
+ToolAutoBuild/obj/
+ToolAutoBuild/bin/
 */.suo
 */.vs/*
 *.vsidx
-.vs/AutoRunBuild/v17/
+.vs/ToolAutoBuild/v17/
+.vs/ToolAutoBuild/v17/.suo
