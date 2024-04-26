@@ -48,7 +48,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.label1.Location = new System.Drawing.Point(3, 20);
+            this.label1.Location = new System.Drawing.Point(3, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 5;
@@ -57,9 +57,9 @@
             // btnOpenFolderSVN
             // 
             this.btnOpenFolderSVN.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFolderSVN.Image")));
-            this.btnOpenFolderSVN.Location = new System.Drawing.Point(344, 15);
+            this.btnOpenFolderSVN.Location = new System.Drawing.Point(344, 16);
             this.btnOpenFolderSVN.Name = "btnOpenFolderSVN";
-            this.btnOpenFolderSVN.Size = new System.Drawing.Size(26, 24);
+            this.btnOpenFolderSVN.Size = new System.Drawing.Size(26, 26);
             this.btnOpenFolderSVN.TabIndex = 4;
             this.btnOpenFolderSVN.UseVisualStyleBackColor = true;
             this.btnOpenFolderSVN.Click += new System.EventHandler(this.btnOpenFolderSVN_Click);
@@ -68,7 +68,7 @@
             // 
             this.txtPathSVN.Enabled = false;
             this.txtPathSVN.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.txtPathSVN.Location = new System.Drawing.Point(99, 15);
+            this.txtPathSVN.Location = new System.Drawing.Point(99, 16);
             this.txtPathSVN.Name = "txtPathSVN";
             this.txtPathSVN.ReadOnly = true;
             this.txtPathSVN.Size = new System.Drawing.Size(240, 24);
@@ -90,24 +90,24 @@
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.groupBox1.Location = new System.Drawing.Point(9, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(376, 286);
+            this.groupBox1.Size = new System.Drawing.Size(376, 310);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Setting";
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(6, 256);
+            this.progressBar.Location = new System.Drawing.Point(6, 277);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(281, 22);
+            this.progressBar.Size = new System.Drawing.Size(281, 24);
             this.progressBar.TabIndex = 28;
             // 
             // btnOpenFolderSrc
             // 
             this.btnOpenFolderSrc.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFolderSrc.Image")));
-            this.btnOpenFolderSrc.Location = new System.Drawing.Point(344, 45);
+            this.btnOpenFolderSrc.Location = new System.Drawing.Point(344, 49);
             this.btnOpenFolderSrc.Name = "btnOpenFolderSrc";
-            this.btnOpenFolderSrc.Size = new System.Drawing.Size(26, 24);
+            this.btnOpenFolderSrc.Size = new System.Drawing.Size(26, 26);
             this.btnOpenFolderSrc.TabIndex = 26;
             this.btnOpenFolderSrc.UseVisualStyleBackColor = true;
             this.btnOpenFolderSrc.Click += new System.EventHandler(this.btnOpenFolderSrc_Click);
@@ -116,7 +116,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.label3.Location = new System.Drawing.Point(3, 50);
+            this.label3.Location = new System.Drawing.Point(3, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 17);
             this.label3.TabIndex = 27;
@@ -126,7 +126,7 @@
             // 
             this.txtPathSrc.Enabled = false;
             this.txtPathSrc.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.txtPathSrc.Location = new System.Drawing.Point(99, 45);
+            this.txtPathSrc.Location = new System.Drawing.Point(99, 49);
             this.txtPathSrc.Name = "txtPathSrc";
             this.txtPathSrc.ReadOnly = true;
             this.txtPathSrc.Size = new System.Drawing.Size(240, 24);
@@ -136,9 +136,9 @@
             // 
             this.btnRun.Image = ((System.Drawing.Image)(resources.GetObject("btnRun.Image")));
             this.btnRun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRun.Location = new System.Drawing.Point(292, 255);
+            this.btnRun.Location = new System.Drawing.Point(292, 276);
             this.btnRun.Name = "btnRun";
-            this.btnRun.Size = new System.Drawing.Size(78, 24);
+            this.btnRun.Size = new System.Drawing.Size(78, 26);
             this.btnRun.TabIndex = 24;
             this.btnRun.Text = "    Run";
             this.btnRun.UseVisualStyleBackColor = true;
@@ -147,10 +147,10 @@
             // txtLogs
             // 
             this.txtLogs.Font = new System.Drawing.Font("Century Gothic", 9.5F);
-            this.txtLogs.Location = new System.Drawing.Point(6, 100);
+            this.txtLogs.Location = new System.Drawing.Point(6, 108);
             this.txtLogs.Name = "txtLogs";
             this.txtLogs.ReadOnly = true;
-            this.txtLogs.Size = new System.Drawing.Size(364, 151);
+            this.txtLogs.Size = new System.Drawing.Size(364, 163);
             this.txtLogs.TabIndex = 23;
             this.txtLogs.Text = "";
             // 
@@ -158,7 +158,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.label2.Location = new System.Drawing.Point(3, 80);
+            this.label2.Location = new System.Drawing.Point(3, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 17);
             this.label2.TabIndex = 6;
@@ -166,9 +166,9 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 295);
+            this.ClientSize = new System.Drawing.Size(394, 320);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
