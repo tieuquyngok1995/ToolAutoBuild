@@ -490,7 +490,7 @@ namespace ToolAutoBuild
                     foreach (ItemModel itemModel in listTmpItemResource)
                     {
                         string comment = string.IsNullOrEmpty(itemModel.Comment) ? itemModel.Value : itemModel.Comment;
-                        listItemResourceInFile.Add(new ItemModel(itemModel.Key, itemModel.Value, comment.Replace("\r\n", "").Replace("\n", "")));
+                        listItemResourceInFile.Add(new ItemModel(itemModel.Key.Replace(" ", ""), itemModel.Value, comment.Replace("\r\n", "").Replace("\n", "")));
                     }
                 }
 
