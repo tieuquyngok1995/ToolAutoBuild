@@ -5,3 +5,4 @@ ToolAutoBuild/bin/
 *.vsidx
 .vs/ToolAutoBuild/v17/
 .vs/ToolAutoBuild/v17/.suo
+/packages
